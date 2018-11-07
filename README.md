@@ -1,6 +1,7 @@
 # opencl_heterogenous_platforms
 
-This is an evaluation of algorithm implementations across different platform types abstracted using opencl API.
+This is an evaluation of algorithm implementations across different platform types.
+The platforms are abstracted using OpenCL API (khronos link)
 The platform types in comparison are cpu, gpu and fpga-SoC.
 
 ## Tested Algorithms
