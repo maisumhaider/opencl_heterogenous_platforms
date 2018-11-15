@@ -30,7 +30,6 @@ int main()
             string device_name = device.getInfo<CL_DEVICE_NAME>(&err);
             assert(err==CL_SUCCESS);
             devices[device_name]= device;
-
         }
     }
     cout<<"Total platforms "<<all_platforms.size()<<"."<<endl;
